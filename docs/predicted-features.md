@@ -1,0 +1,15 @@
+# Appendix Table 2. Predicted Features
+
+| Field                          | Definition                                                                                                                                  | Tool / Source                          |
+|--------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------|
+| netmhcpan_rank                 | Percentile rank of peptide–MHC binding predicted by NetMHCpan                                                                               | NetMHCpan v4.1                         |
+| netmhcstabpan_stability        | Predicted stability of peptide–MHC complex                                                                                                  | NetMHCstabpan v1.0                     |
+| prime_rank                     | Predicted probability rank of TCR recognition                                                                                               | PRIME v1.0.1                           |
+| bigmhc_im_score                | Predicted immunogenicity probability of the peptide–MHC complex, as output by BigMHC (IM module). Continuous value between 0 and 1; higher scores indicate higher likelihood of immunogenicity. | BigMHC-IM (latest version, 2024 release) |
+| tap_score                      | Predicted TAP transport efficiency score                                                                                                    | NetCTLpan v1.1                         |
+| netchop_score                  | Predicted proteasomal cleavage score                                                                                                        | NetChop v3.1                           |
+| dai_netmhcpan                  | Differential agretopicity index (mutant vs wild-type, NetMHCpan). Calculation: log(rank(neo-pep)/rank(wt-pep)) if rank(neo-pep)>0 and rank(wt-pep)>0. 0 otherwise. Negative values indicate a large difference between neo-pep and wt-pep. | NetMHCpan v4.1                         |
+| anchor_mutation                | Whether mutation occurs at HLA anchor position                                                                                              | MixMHCpred v3.0                        |
+| eluted_ligand_match            | Whether peptide is observed in MHC ligand elution/MS experiments                                                                            | IEDB (MHC ligand elution, 2025 export) |
+| tcga_cancer_expression_tpm_median | Median log2(TPM+0.001) across TCGA primary tumor samples for the matching cancer type                                                    | TCGA (Data Release 43.0 – May 07, 2025) |
+| driver_status                  | Gene-level driver status annotation                                                                                                         | IntOGen 2024                           |

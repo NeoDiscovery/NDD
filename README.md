@@ -3,7 +3,7 @@
 > 📢 **Current public version: v0.2 (positive dataset only)**  
 > This release contains **257 experimentally validated neoantigen peptides** across **25 cancer types** and **46 HLA class I alleles**.  
 > For patient-level data and leaderboard participation, visit:  
-> 👉 [https://huggingface.co/NeoDiscoveryAdmin](https://huggingface.co/NeoDiscoveryAdmin)
+> 👉 [https://huggingface.co/NeoDiscovery](https://huggingface.co/NeoDiscovery)
 
 ---
 
@@ -116,7 +116,7 @@ please open an issue or pull request.
 
 Researchers are also invited to participate in the **NDD v0.2 leaderboard** on Hugging Face,  
 where models can be benchmarked under standardized evaluation settings.  
-👉 [https://huggingface.co/NeoDiscoveryAdmin](https://huggingface.co/NeoDiscoveryAdmin)
+👉 [https://huggingface.co/NeoDiscovery](https://huggingface.co/NeoDiscovery)
 
 ---
 
@@ -126,7 +126,7 @@ If you use NDD in your work, please cite:
 
 **Neoantigen Discovery Dataset (NDD) v0.2**  
 NeoDiscovery Team, 2025.  
-Hosted on Hugging Face: [https://huggingface.co/NeoDiscoveryAdmin](https://huggingface.co/NeoDiscoveryAdmin)
+Hosted on Hugging Face: [https://huggingface.co/NeoDiscovery](https://huggingface.co/NeoDiscovery)
 
 **Archived version (NDD v0.1)**  
 NeoDiscovery Team, 2025.  
